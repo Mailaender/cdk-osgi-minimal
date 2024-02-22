@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: net.openchrom.xxd.identifier.supplier.cdk.fragment.test
+Bundle-ManifestVersion: 2
+Bundle-Name: OPSIN Test
+Bundle-SymbolicName: com.lablicate.opsin.fragment.test
+Bundle-Version: 1.0.0.qualifier
+Import-Package: com.ctc.wstx.stax;version="6.5.1"
+Bundle-Vendor: Lablicate
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Require-Bundle: wrapped.junit.junit;bundle-version="4.13.2",
+ wrapped.uk.ac.cam.ch.opsin.opsin-core;bundle-version="2.8.0",
+ org.hamcrest;bundle-version="2.2.0",
+ org.apache.logging.log4j.api;bundle-version="2.20.0",
+ stax2-api;bundle-version="4.2.1",
+ org.apache.commons.commons-io;bundle-version="2.12.0",
+ wrapped.dk.brics.automaton;bundle-version="1.12.0"
